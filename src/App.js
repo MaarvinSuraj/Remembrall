@@ -5,8 +5,8 @@ import Container2 from './components/Container2';
 import Container3 from './components/Container3';
 import { Route, Routes , BrowserRouter} from 'react-router-dom';
 import { Link } from "react-router-dom";
-import Myevents from './Myeventspage';
-import Clubpage from './Clubpage';
+import Eventpage from './pages/Eventpage';
+import Clubpage from './pages/Clubpage';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
             <Navbarf />
             <BrowserRouter>
             <Routes>
-            <Route exact path='/myevents' element={<Myevents/>} />
+            <Route exact path='/Eventpage' element={<Eventpage/>} />
             <Route exact path='/' element={<Clubpage/>} />
             </Routes>
             </BrowserRouter>

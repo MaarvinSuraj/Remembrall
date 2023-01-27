@@ -37,8 +37,12 @@ import { FiSearch } from "react-icons/fi";
 import { FiBookmark } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Navbarf() {
+
+
+
     return (
         <div className='container'>
             <div className='navbar'>
@@ -46,9 +50,7 @@ function Navbarf() {
                 <nav>
                     <ul>
                         <li className="navele"><a href="#">Home</a></li>
-                        <a href='/myevents'>
-                            <li class="navele"><p>My Events</p></li>
-                        </a>
+                        <li class="navele"><a>My Events</a></li>
                         <li className="navele"><a><FiSearch className="search" /></a></li>
                         <li className="navele"><a><FiBookmark className="bookmark" /></a></li>
                         <li className="navele"><a><FaRegUser className="profile" /></a></li>

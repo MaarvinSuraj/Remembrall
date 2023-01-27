@@ -2,7 +2,7 @@ import React from 'react';
 import '../index.css';
 import { useState } from 'react';
 
-function Container2({clubName,content}) {
+function Container2({Name,content}) {
     const [state,setState] = useState(false);
 
     const toggle = () =>{ setState(!state) }
@@ -11,7 +11,7 @@ function Container2({clubName,content}) {
     <>
         <div className="container2">
             <div class="info">
-                <h2 className="clubName">{clubName}</h2>
+                <h2 className="clubName">{Name}</h2>
                 <nav>
                     <ul>
                         <li><a>
