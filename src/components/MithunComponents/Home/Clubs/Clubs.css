@@ -1,0 +1,53 @@
+.Clubs {
+    position: relative;
+    top: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    color: white;
+    overflow: hidden;
+}
+
+.Clubs p {
+    padding-left: 6%;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.rect {
+    position: absolute;
+    width: 170px;
+    height: 2px;
+    margin-left: 6%;
+    top: 70px;
+    background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
+    border-radius: 20px;
+}
+
+.clubs-img {
+    padding: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    box-sizing: content-box;
+    height: 200px;
+}
+
+.image {
+    padding-top: 10px;
+    padding-left: 6%;
+    padding-right: 6%;
+    box-sizing: content-box;
+    object-fit: scale-down;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

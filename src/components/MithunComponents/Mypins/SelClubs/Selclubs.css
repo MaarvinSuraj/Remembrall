@@ -1,0 +1,59 @@
+    .Selclubs {
+        position: relative;
+        top: 100px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 36px;
+        color: white;
+        /* overflow: hidden; */
+        margin-bottom: 150px;
+        z-index: 1;
+    }
+    
+    .Selclubs p {
+        padding-left: 6%;
+        position: relative;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+    
+    .srect {
+        position: absolute;
+        width: 170px;
+        height: 2px;
+        margin-left: 6%;
+        top: 40px;
+        background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
+        border-radius: 20px;
+    }
+    
+    .Selclubs-img {
+        padding: auto;
+        padding-left: 6%;
+        padding-right: 6%;
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img {
+        padding-top: 10px;
+        padding-left: 6%;
+        padding-right: 6%;
+        box-sizing: content-box;
+        object-fit: scale-down;
+    }
+    
+    .img:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }

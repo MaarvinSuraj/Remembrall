@@ -1,0 +1,29 @@
+.Mypin {
+    background-color: #1E1E1E;
+    height: 170vh;
+    overflow: hidden;
+    margin-bottom: -30px;
+}
+
+.prect1 {
+    position: fixed;
+    width: 1002.04px;
+    height: 200.33px;
+    left: 1019px;
+    top: 60%;
+    transform: rotate(-34.1deg);
+    background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
+    z-index: 0;
+}
+
+.prect2 {
+    position: fixed;
+    width: 428.66px;
+    height: 8.62px;
+    left: 906.14px;
+    top: 656.16px;
+    background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
+    border-radius: 20px;
+    transform: rotate(146.23deg);
+    z-index: 0;
+}
