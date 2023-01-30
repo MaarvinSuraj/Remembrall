@@ -1,8 +1,8 @@
 import React,{useEffect} from 'react';
 import './Navbar.css';
 import LOGO from './LOGO.png';
-import { BiBookmark,BiUserCircle } from "react-icons/bi";
-import { AiOutlineSearch } from "react-icons/ai";
+import { FiSearch } from "react-icons/fi";
+import { FaRegUser } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
 
@@ -17,7 +17,7 @@ const handleScroll=() => {
       setScrolled(false);
     }
   }
-  const navigate=useNavigate()
+  const navigate=useNavigate();
   const btn = ()=>{
     navigate("./Mypins");
   }
@@ -38,9 +38,9 @@ let navbarClasses=['navbar'];
         <ul>
             <li onClick={bt}><a href=" ">Home</a></li>
             <li onClick={btn}><a href=" ">Mypins</a></li>
-            <li><BiBookmark className='icon'/></li>
-            <li><AiOutlineSearch className='icon' /></li>
-            <li><BiUserCircle className='icon'/></li>
+            
+            <li><FiSearch className='icon' /></li>
+            <li><FaRegUser className='icon'/></li>
         </ul>
       </div>
     )

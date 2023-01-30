@@ -14,7 +14,7 @@ function Container2({Name,content}) {
                 <h2 className="clubName">{Name}</h2>
                 <nav>
                     <ul>
-                        <li><a>
+                        <li><a href=" ">
                             <button onClick={toggle} 
                             className={state ? 'enrolled-btn':'enroll-btn' }>{ state ? 'Enrolled' : 'Enroll' }
                             </button></a>

@@ -1,24 +1,24 @@
 import './App.css';
-import Navbarf from './components/Navbarf.jsx';
-import Bannerf from './components/Bannerf';
-import Container2 from './components/Container2';
-import Container3 from './components/Container3';
-import { Route, Routes , BrowserRouter} from 'react-router-dom';
-import { Link } from "react-router-dom";
+import Navbar from './components/MithunComponents/Navbar/Navbar';
+import { Route, Routes } from 'react-router-dom';
 import Eventpage from './pages/Eventpage';
 import Clubpage from './pages/Clubpage';
+import Home from './components/MithunComponents/Home/Home';
+import Mypins from './components/MithunComponents/Mypins/Mypins';
 
 
 function App() {
     return (
         <>
-            <Navbarf />
-            <BrowserRouter>
+            <Navbar/>
+            
             <Routes>
+            <Route exact path="/" element={<Home/>}/>
+            <Route exact path="/Mypins" element={<Mypins/>}/>
             <Route exact path='/Eventpage' element={<Eventpage/>} />
-            <Route exact path='/' element={<Clubpage/>} />
+            <Route exact path='/Clubpage' element={<Clubpage/>} />
             </Routes>
-            </BrowserRouter>
+            
         </>
     );
 }

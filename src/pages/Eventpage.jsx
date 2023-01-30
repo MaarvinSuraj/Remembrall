@@ -4,8 +4,8 @@ import Bannerf from '../components/Bannerf';
 import Container2 from '../components/Container2';
 import Container3 from '../components/Container3';
 import Cards from '../components/Cards';
-import { Link } from "react-router-dom";
-import Navbarf from '../components/Navbarf';
+
+import Navbar from '../components/MithunComponents/Navbar/Navbar';
 
 export const Eventpage = () => {
   return (

@@ -36,29 +36,34 @@ import '../index.css';
 import { FiSearch } from "react-icons/fi";
 import { FiBookmark } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 function Navbarf() {
+    // const navigate = useNavigate()
+    // const btn = () => {
+    //     navigate("./Mypins");
+    // }
+    // const bt = () => {
+    //     navigate("./");
+    // }
 
 
-
-    return (
-        <div className='container'>
-            <div className='navbar'>
-                <img className='logo' src={logo} />
-                <nav>
-                    <ul>
-                        <li className="navele"><a href="#">Home</a></li>
-                        <li class="navele"><a>My Events</a></li>
-                        <li className="navele"><a><FiSearch className="search" /></a></li>
-                        <li className="navele"><a><FiBookmark className="bookmark" /></a></li>
-                        <li className="navele"><a><FaRegUser className="profile" /></a></li>
-                    </ul>
-                </nav>
-            </div>
+    return ( 
+    <div className = 'container' >
+        <div className = 'navbar' >
+        <img className = 'logo' src = {logo} alt=" "/> 
+        <nav >
+            <ul >
+                <li className = "navele"  > < a href = " " > Home </a></li >
+                <li class = "navele"  > <a href = " "> Mypins </a></li >
+                <li className = "navele" > <a href = " "> < FiSearch className = "search" /> </a></li >
+                <li className = "navele" > <a href = " "> < FiBookmark className = "bookmark" /> </a></li >
+                <li className = "navele" > <a href = " "> < FaRegUser className = "profile" /> </a></li >
+            </ul> 
+        </nav> 
+        </div> 
         </div>
-    )
+    );
 }
 
 export default Navbarf
