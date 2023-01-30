@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #2B2B2B;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .backDesign{

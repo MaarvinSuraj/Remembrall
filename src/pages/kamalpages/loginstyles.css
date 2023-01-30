@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #292828;
+    overflow: hidden;
+}
+.backdesign{
+    position: fixed;
+    min-width: 120%;
+    height: 250px;
+    background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
+    top: 220px;
+    transform: rotate(-30deg) scale(1.5);
+}
+.leftdesign{
+    position: fixed;
+    width: 440px;
+    height: 12px;
+    background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
+    border-radius: 20px;
+    top: 640px;
+    transform: rotate(-30deg) scale(1.5);
+
+}
+.rightdesign{
+    position: fixed;
+    width: 500px;
+    height: 7px;
+    background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
+    border-radius: 20px;
+    top: 174px;
+    left: 1600px;
+    transform: rotate(-30deg) scale(2.5);
+}
+.logo{
+    position:fixed;
+    width: 50px;
+    height:auto;
+    top: 40px;
+    left: 100px;
+}
+.center{
+    width: 380px;
+    height: 496.36px;
+    background:#1d1b1b;
+    border-radius: 25px;
+    position: relative;
+    left: 750px;
+    top: 200px;
+}
+
+.center h1{
+text-align: center;
+padding: 40px 0 20px 0;
+font-family: 'Inter';
+font-style: normal;
+font-size: 50px;
+color: #FFFFFF;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .txt-field{
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+.txt-field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px ;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt-field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: lightgray;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+
+}
+.txt-field span::before{
+    content: '';
+    position: absolute;
+    top: 41px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: .5s;
+
+}
+.txt-field input:focus ~ label,
+.txt-field input:valid ~ label{
+    top: -5px;
+    color: lightgray;
+}
+.txt-field input:focus ~ span::before,
+.txt-field input:valid ~ span::before{
+    width: 100%;
+}
+button[type="submit"]{
+    width: 60%;
+    margin-left: 55px;
+    height: 40px;
+    border-radius: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    background: linear-gradient(268.61deg, #F9FF00 -24.18%, #11CFC8 129.76%);
+    cursor: pointer;
+    border: none;
+    font-size: 22px;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #1d1b1b;
+
+}
+input[value="Login"]{
+    font-size: 22px;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #1d1b1b;
+}
+.or{
+    margin: 30px 0;
+    text-align: center;
+    color: lightgray;
+    text-decoration: dashed;
+}
+.or .lefts{
+    float: left;
+    width: 125px;
+}
+.or .rights{
+    float: right;
+    width:125px;
+}
+form .google-signup{
+    margin:30px 0;
+    text-align: center;
+    color: lightgray;
+
+}
+.google-signup Link{
+    color: lightgray;
+    text-decoration: none;
+}
+.google-signup img{
+    position:relative;
+    top: 5px;
+    left: 2px;
+}
+form .signup{
+    margin: 50x 0;
+    text-align: center;
+    font-size: 36px;
+    color: lightgray ;
+}
+.s-l{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+}

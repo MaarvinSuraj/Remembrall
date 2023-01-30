@@ -23,7 +23,7 @@ const Clubs=()=>{
   const navigate=useNavigate();
   
   const bt = ()=>{
-    navigate("./Clubpage");
+    navigate("/Clubpage");
   }
       return(
         <div className="Clubs">

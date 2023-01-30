@@ -23,7 +23,7 @@ const Events=()=>{
   };
   const navigate=useNavigate();
   const btn = ()=>{
-    navigate("./Eventpage");
+    navigate("/Eventpage");
   }
     return(
         <div className="Events">

@@ -3,7 +3,7 @@ import './Navbar.css';
 import LOGO from './LOGO.png';
 import { FiSearch } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 
 
 const Navbar=() => {
@@ -19,10 +19,10 @@ const handleScroll=() => {
   }
   const navigate=useNavigate();
   const btn = ()=>{
-    navigate("./Mypins");
+    navigate("/Mypins");
   }
   const bt = ()=>{
-    navigate("./");
+    navigate("/Home");
   }
 
   useEffect(() => {
@@ -40,7 +40,9 @@ let navbarClasses=['navbar'];
             <li onClick={btn}><a href=" ">Mypins</a></li>
             
             <li><FiSearch className='icon' /></li>
+            <Link to="/UserProfile">
             <li><FaRegUser className='icon'/></li>
+            </Link>
         </ul>
       </div>
     )
