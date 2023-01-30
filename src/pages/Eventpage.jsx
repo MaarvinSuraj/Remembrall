@@ -4,13 +4,16 @@ import Bannerf from '../components/Bannerf';
 import Container2 from '../components/Container2';
 import Container3 from '../components/Container3';
 import Cards from '../components/Cards';
+import img from '../images/newvibes.jpeg';
+
 
 import Navbar from '../components/MithunComponents/Navbar/Navbar';
 
 export const Eventpage = () => {
   return (
     <>
-    <Bannerf />
+    <Navbar/>
+    <Bannerf img={img}/>
             <Container2 
             Name="New Year New Vibes"
             content="To begin a new year with a DJ party, A dream way to start a new year right? Come join with us and begin your new year in style To begin a new year with a DJ party, A dream way to start a new year right? Come join with us and begin your new year in style To begin a new year with a DJ party, A dream way to start a new year right? Come join with us and begin your new year in style To begin a new year with a DJ party, A dream way to start a new year right? Come join with us and begin your new year in style"

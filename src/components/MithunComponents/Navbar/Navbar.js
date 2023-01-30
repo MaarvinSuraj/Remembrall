@@ -34,7 +34,9 @@ let navbarClasses=['navbar'];
   }
     return (
         <div className="Navbar">
+        <Link to="/Home">
         <img src={LOGO} alt=""></img>
+        </Link>
         <ul>
             <li onClick={bt}><a href=" ">Home</a></li>
             <li onClick={btn}><a href=" ">Mypins</a></li>

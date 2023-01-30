@@ -12,7 +12,6 @@ import UserProfile from './pages/kamalpages/user-profile'
 function App() {
     return (
         <>
-            <Navbar/>
             
             <Routes>
             <Route exact path="/" element={<LoginPage/>}/>

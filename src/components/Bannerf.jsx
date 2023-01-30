@@ -1,12 +1,13 @@
 import React from 'react'
-import banner from '../images/Danceclub.jpeg';
+import img from '../images/Danceclub.jpeg';
 import '../index.css';
 
 
-function Bannerf() {
+function Bannerf({img}) {
   return (
     <div className="Banner">
-        <img src={banner}/>
+        {/* <img src={banner}/> */}
+        <img src={img}/>
     </div>
   )
 }

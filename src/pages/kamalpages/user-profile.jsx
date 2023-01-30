@@ -2,7 +2,8 @@ import React from "react";
 import { Link,useNavigate } from 'react-router-dom';
 import { HiPencilAlt } from 'react-icons/hi';
 import "./user-profile-styles.css";
-import pfi from '../../images/prof-img.PNG'
+import pfi from '../../images/prof-img.PNG';
+import Navbar from "../../components/MithunComponents/Navbar/Navbar";
 
 function UserProfile(){
 
@@ -13,6 +14,7 @@ function UserProfile(){
 
     return(
     <>
+    <Navbar/>
     <div className="right-big"></div>
     <div className="right-small"></div>
     <div className="left-big"></div>
