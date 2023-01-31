@@ -1,11 +1,11 @@
-
-body{
+body {
     margin: 0;
     background-color: #1e1e1e;
     height: 100vh;
     width: auto;
 }
-.right-big{
+
+.right-big {
     position: fixed;
     width: 820px;
     height: 200px;
@@ -14,46 +14,51 @@ body{
     left: -150px;
     top: -30px;
 }
-.right-small{
+
+.right-small {
     position: fixed;
     width: 420px;
     height: 15px;
-    background:linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
-    top:315px;
+    background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
+    top: 315px;
     left: -50px;
     transform: rotate(-30deg) scale(1.5);
-    border-radius: 22px ;  
+    border-radius: 22px;
 }
-.left-big{
+
+.left-big {
     position: fixed;
     width: 820px;
     height: 200px;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
     transform: rotate(-30deg) scale(1.5);
     left: 72%;
-    top: 75%;   
+    top: 75%;
 }
-.left-small{
+
+.left-small {
     position: fixed;
     width: 420px;
     height: 15px;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
-    top:90%;
+    top: 90%;
     left: 60%;
     transform: rotate(-30deg) scale(1.5);
-    border-radius: 22px ;  
+    border-radius: 22px;
 }
-.prof-box{
+
+.prof-box {
     display: flex;
     flex-direction: column;
     background: #1d1d1d;
     width: 1400px;
-    height :700px ;
+    height: 700px;
     margin: 7% 12.5%;
     border-radius: 40px;
-    position: relative;  
+    position: relative;
 }
-.top-part{
+
+.top-part {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -64,54 +69,62 @@ body{
     z-index: 1;
     top: -20%;
 }
-.nam-mob{
+
+.nam-mob {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
-.dept-yr{
+
+.dept-yr {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
-.prof-det{
+
+.prof-det {
     display: flex;
     flex-direction: row;
     margin: 0;
     margin-bottom: 20px;
 }
-h1{
+
+h1 {
     font-size: 150%;
     color: antiquewhite;
     margin: 0;
     font-weight: 700;
 }
-p{
+
+p {
     font-size: 150%;
     color: antiquewhite;
     top: -3px;
     margin: 0;
     font-weight: 400;
 }
-.edit-icon{
+
+.edit-icon {
     position: relative;
     display: grid;
     height: 60px;
     width: 60px;
-    align-items: center;;
+    align-items: center;
+    ;
     left: 97%;
     top: -24%;
     border-radius: 30px;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
 }
-.pen-icon{
-    position:relative;
+
+.pen-icon {
+    position: relative;
     left: 15px;
     font-size: 30px;
     color: #353434;
 }
 
-.econ{
+.econ {
     position: relative;
     height: 140px;
     width: 140px;
@@ -120,7 +133,8 @@ p{
     left: 47%;
     z-index: 2;
 }
-.lo-btn{
+
+.lo-btn {
     position: relative;
     width: 250px;
     height: 34px;
@@ -135,7 +149,7 @@ p{
     z-index: 2;
 }
 
-.club-heading{
+.club-heading {
     position: relative;
     display: grid;
     align-items: center;
@@ -146,24 +160,26 @@ p{
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
 }
 
-.heading1{
+.heading1 {
     margin-left: 40%;
 }
 
-.cl-li{
+.cl-li {
     position: relative;
     left: 10%;
     margin-top: 30px;
     width: auto;
     height: auto;
 }
-li{
+
+li {
     margin: 0;
     margin-top: 10px;
-    font-size: 150% ;
+    font-size: 150%;
     color: antiquewhite;
 }
-.event-heading{
+
+.event-heading {
     position: relative;
     display: grid;
     align-items: center;
@@ -172,16 +188,19 @@ li{
     border-radius: 17px;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
 }
-.ev-li{
+
+.ev-li {
     position: relative;
     width: auto;
     height: auto;
     margin-top: 30px;
 }
-.heading2{
+
+.heading2 {
     margin-left: 10%;
 }
-.e-c{
+
+.e-c {
     position: fixed;
     left: 65%;
     top: 46%;

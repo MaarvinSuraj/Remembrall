@@ -1,11 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
     background: #292828;
-    overflow: hidden;
 }
-.backdesign{
+
+.backdesign {
     position: fixed;
     min-width: 120%;
     height: 250px;
@@ -13,7 +13,8 @@ body{
     top: 220px;
     transform: rotate(-30deg) scale(1.5);
 }
-.leftdesign{
+
+.leftdesign {
     position: fixed;
     width: 440px;
     height: 12px;
@@ -21,9 +22,9 @@ body{
     border-radius: 20px;
     top: 640px;
     transform: rotate(-30deg) scale(1.5);
-
 }
-.rightdesign{
+
+.rightdesign {
     position: fixed;
     width: 500px;
     height: 7px;
@@ -33,51 +34,57 @@ body{
     left: 1600px;
     transform: rotate(-30deg) scale(2.5);
 }
-.logo{
-    position:fixed;
+
+.logo {
+    position: fixed;
     width: 50px;
-    height:auto;
+    height: auto;
     top: 40px;
     left: 100px;
 }
-.center{
+
+.center {
     width: 380px;
     height: 496.36px;
-    background:#1d1b1b;
+    background: #1d1b1b;
     border-radius: 25px;
     position: relative;
     left: 750px;
     top: 200px;
 }
 
-.center h1{
-text-align: center;
-padding: 40px 0 20px 0;
-font-family: 'Inter';
-font-style: normal;
-font-size: 50px;
-color: #FFFFFF;
+.center h1 {
+    text-align: center;
+    padding: 40px 0 20px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 50px;
+    color: #FFFFFF;
 }
-.center form{
+
+.center form {
     padding: 0 40px;
     box-sizing: border-box;
 }
-form .txt-field{
+
+form .txt-field {
     position: relative;
     border-bottom: 2px solid white;
     margin: 30px 0;
 }
-.txt-field input{
+
+.txt-field input {
     width: 100%;
     padding: 0 5px;
-    height: 40px ;
+    height: 40px;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
     border: none;
     background: none;
     outline: none;
 }
-.txt-field label{
+
+.txt-field label {
     position: absolute;
     top: 50%;
     left: 5px;
@@ -85,9 +92,9 @@ form .txt-field{
     transform: translateY(-50%);
     font-size: 16px;
     pointer-events: none;
-
 }
-.txt-field span::before{
+
+.txt-field span::before {
     content: '';
     position: absolute;
     top: 41px;
@@ -95,18 +102,20 @@ form .txt-field{
     width: 0%;
     height: 2px;
     transition: .5s;
-
 }
-.txt-field input:focus ~ label,
-.txt-field input:valid ~ label{
+
+.txt-field input:focus~label,
+.txt-field input:valid~label {
     top: -5px;
     color: lightgray;
 }
-.txt-field input:focus ~ span::before,
-.txt-field input:valid ~ span::before{
+
+.txt-field input:focus~span::before,
+.txt-field input:valid~span::before {
     width: 100%;
 }
-button[type="submit"]{
+
+button[type="submit"] {
     width: 60%;
     margin-left: 55px;
     height: 40px;
@@ -119,49 +128,56 @@ button[type="submit"]{
     font-size: 22px;
     font-family: 'Frank Ruhl Libre', serif;
     color: #1d1b1b;
-
 }
-input[value="Login"]{
+
+input[value="Login"] {
     font-size: 22px;
     font-family: 'Frank Ruhl Libre', serif;
     color: #1d1b1b;
 }
-.or{
+
+.or {
     margin: 30px 0;
     text-align: center;
     color: lightgray;
     text-decoration: dashed;
 }
-.or .lefts{
+
+.or .lefts {
     float: left;
     width: 125px;
 }
-.or .rights{
+
+.or .rights {
     float: right;
-    width:125px;
+    width: 125px;
 }
-form .google-signup{
-    margin:30px 0;
+
+form .google-signup {
+    margin: 30px 0;
     text-align: center;
     color: lightgray;
-
 }
-.google-signup Link{
+
+.google-signup Link {
     color: lightgray;
     text-decoration: none;
 }
-.google-signup img{
-    position:relative;
+
+.google-signup img {
+    position: relative;
     top: 5px;
     left: 2px;
 }
-form .signup{
+
+form .signup {
     margin: 50x 0;
     text-align: center;
     font-size: 36px;
-    color: lightgray ;
+    color: lightgray;
 }
-.s-l{
+
+.s-l {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16px;
