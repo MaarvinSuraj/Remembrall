@@ -3,35 +3,38 @@ body {
     padding: 0;
     height: 100vh;
     background: #292828;
+    justify-content: center;
+    align-items: center;
 }
 
 .backdesign {
     position: fixed;
     min-width: 120%;
-    height: 250px;
+    height: 45%;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
-    top: 220px;
+    top: 30%;
     transform: rotate(-30deg) scale(1.5);
 }
 
 .leftdesign {
-    position: fixed;
-    width: 440px;
-    height: 12px;
+    position: absolute;
+    width: 15%;
+    height: 10px;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
     border-radius: 20px;
-    top: 640px;
+    left: 0%;
+    top: 70%;
     transform: rotate(-30deg) scale(1.5);
 }
 
 .rightdesign {
     position: fixed;
-    width: 500px;
+    width: 10%;
     height: 7px;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
     border-radius: 20px;
-    top: 174px;
-    left: 1600px;
+    top: 60%;
+    left: 85%;
     transform: rotate(-30deg) scale(2.5);
 }
 
@@ -48,9 +51,11 @@ body {
     height: 496.36px;
     background: #1d1b1b;
     border-radius: 25px;
-    position: relative;
-    left: 750px;
-    top: 200px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 40%;
+    top: 25%;
 }
 
 .center h1 {
@@ -137,7 +142,7 @@ input[value="Login"] {
 }
 
 .or {
-    margin: 30px 0;
+    margin: 25px 0;
     text-align: center;
     color: lightgray;
     text-decoration: dashed;
@@ -154,12 +159,11 @@ input[value="Login"] {
 }
 
 form .google-signup {
-    margin: 30px 0;
     text-align: center;
     color: lightgray;
 }
 
-.google-signup Link {
+.g-l {
     color: lightgray;
     text-decoration: none;
 }
@@ -170,11 +174,11 @@ form .google-signup {
     left: 2px;
 }
 
-form .signup {
-    margin: 50x 0;
+form .sign {
     text-align: center;
-    font-size: 36px;
+    font-size: 16px;
     color: lightgray;
+    padding-top: 15px;
 }
 
 .s-l {

@@ -52,12 +52,12 @@ function LoginPage() {
         <hr className="rights"></hr>
       </div>
       <div className="google-signup">
-        <Link>Log in with Google account</Link>
+        <Link className="g-l">Log in with Google account</Link>
         <img src={gi} alt="google logo" />
       </div>
-      <div className="signup">
+      <p className="sign">
         Don't have an account? <Link className="s-l" to="/Signup">Sign up</Link>
-      </div>
+      </p>
     </form>
     </div>
     </>

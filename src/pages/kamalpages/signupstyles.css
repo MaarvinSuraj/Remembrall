@@ -5,7 +5,7 @@ body {
     background: #292828;
 }
 
-.backdesign {
+.sbackdesign {
     position: fixed;
     min-width: 120%;
     height: 250px;
@@ -14,7 +14,7 @@ body {
     transform: rotate(-30deg) scale(1.9);
 }
 
-.leftdesign {
+.sleftdesign {
     position: fixed;
     width: 440px;
     height: 12px;
@@ -24,7 +24,7 @@ body {
     transform: rotate(-30deg) scale(1.5);
 }
 
-.rightdesign {
+.srightdesign {
     position: fixed;
     width: 500px;
     height: 7px;
@@ -35,18 +35,18 @@ body {
     transform: rotate(-30deg) scale(2.5);
 }
 
-.logo {
+.slogo {
     position: relative;
     top: 40px;
     left: 100px;
 }
 
-.logo img {
+.slogo img {
     height: auto;
     width: 200px;
 }
 
-.center {
+.scenter {
     width: 380px;
     height: 630px;
     background: #1d1b1b;
@@ -56,7 +56,7 @@ body {
     top: 90px;
 }
 
-.center h1 {
+.scenter h1 {
     text-align: center;
     padding: 60px 0 20px 0;
     font-family: 'Inter';
@@ -65,7 +65,7 @@ body {
     color: #FFFFFF;
 }
 
-.center form {
+.scenter form {
     padding: 0 40px;
     box-sizing: border-box;
 }
@@ -136,35 +136,35 @@ input[value="Sign up"] {
     color: #1d1b1b;
 }
 
-.or {
+.sor {
     margin: 30px 0;
     text-align: center;
     color: lightgray;
     text-decoration: dashed;
 }
 
-.or .lefts {
+.sor .lefts {
     float: left;
     width: 125px;
 }
 
-.or .rights {
+.sor .rights {
     float: right;
     width: 125px;
 }
 
-form .google-signup {
+form .sgoogle-signup {
     padding: 0 0 50px 0;
     text-align: center;
     color: lightgray;
 }
 
-.google-signup a {
+.sgoogle-signup a {
     color: lightgray;
     text-decoration: none;
 }
 
-.google-signup img {
+.sgoogle-signup img {
     position: relative;
     top: 5px;
     left: 2px;

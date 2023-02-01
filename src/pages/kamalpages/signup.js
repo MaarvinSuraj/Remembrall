@@ -21,13 +21,13 @@ function Signup(){
 
     return(
         <>
-        <div className="backdesign"></div>
-        <div className="rightdesign"></div>
-        <div className="leftdesign"></div>
-        <div className="logo">
+        <div className="sbackdesign"></div>
+        <div className="srightdesign"></div>
+        <div className="sleftdesign"></div>
+        <div className="slogo">
             <img src={logo} alt="applogo"/>
         </div>
-        <div className="center">
+        <div className="scenter">
         <h1>Sign up</h1>
             <form onSubmit={handleSubmit} method="post">
                 <div className="txt_field">
@@ -71,12 +71,12 @@ function Signup(){
                     <input type="submit" value="Sign up"/>
                 </div>
                 </Link>
-                <div className="or">
+                <div className="sor">
                     <hr className="lefts"/>
                     OR
                     <hr className="rights"/>
                 </div>
-                <div className="google-signup">
+                <div className="sgoogle-signup">
                     <Link>Log in with Google account</Link>
                     <img src={gi} alt="google logo" />
                 </div>
