@@ -28,7 +28,7 @@ const Clubs=()=>{
       return(
         <div className="Clubs">
           <p>Clubs</p>
-          <div className="rect"></div>
+          <div className="crect"></div>
           <div className='clubs-img'>
             <Slider {...settings}>
             <div className='image' onClick={bt}>

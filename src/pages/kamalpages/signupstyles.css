@@ -8,42 +8,43 @@ body {
 .sbackdesign {
     position: fixed;
     min-width: 120%;
-    height: 250px;
+    height: 45%;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
-    top: 220px;
+    top: 20%;
     transform: rotate(-30deg) scale(1.9);
 }
 
 .sleftdesign {
     position: fixed;
-    width: 440px;
-    height: 12px;
+    width: 15%;
+    height: 10px;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
     border-radius: 20px;
-    top: 580px;
+    left: 0%;
+    top: 50%;
     transform: rotate(-30deg) scale(1.5);
 }
 
 .srightdesign {
     position: fixed;
-    width: 500px;
+    width: 10%;
     height: 7px;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
     border-radius: 20px;
-    top: 234px;
-    left: 1600px;
+    top: 60%;
+    left: 85%;
     transform: rotate(-30deg) scale(2.5);
 }
 
 .slogo {
-    position: relative;
-    top: 40px;
-    left: 100px;
+    position: fixed;
+    top: 5%;
+    left: 2%;
 }
 
 .slogo img {
     height: auto;
-    width: 200px;
+    width: 150px;
 }
 
 .scenter {
@@ -51,9 +52,9 @@ body {
     height: 630px;
     background: #1d1b1b;
     border-radius: 25px;
-    position: relative;
-    left: 750px;
-    top: 90px;
+    position: fixed;
+    left: 35%;
+    top: 10%;
 }
 
 .scenter h1 {

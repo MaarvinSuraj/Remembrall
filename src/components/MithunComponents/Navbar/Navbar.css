@@ -15,18 +15,19 @@
 .Navbar ul {
     display: flex;
     list-style-type: none;
+    padding-right: 6%;
 }
 
 .Navbar ul li a {
     text-decoration: none;
-    margin: 0px 10px;
+    margin: 0 10px;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
 }
 
 .icon {
-    margin: 0px 10px;
+    margin: 0 10px;
     font-size: 20px;
     color: white;
 }
@@ -46,9 +47,8 @@
 
 .Navbar img {
     width: 90px;
-    padding-left: 6%;
     cursor: pointer;
-    margin: 30px;
+    margin-left: 100%;
 }
 
 .Navbar scrolled {

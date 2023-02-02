@@ -21,8 +21,8 @@ function LoginPage() {
     <div className="backdesign"></div>
     <div className="leftdesign"></div>
     <div className="rightdesign"></div>
-    <div className="logo">
-        <img className="logo-img" src={logo} alt="applogo" />
+    <div className="llogo">
+        <img className="llogo-img" src={logo} alt="applogo" />
     </div>
     <div className="center">
       <h1>Login</h1>

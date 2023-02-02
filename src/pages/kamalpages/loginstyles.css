@@ -12,7 +12,7 @@ body {
     min-width: 120%;
     height: 45%;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
-    top: 30%;
+    top: 20%;
     transform: rotate(-30deg) scale(1.5);
 }
 
@@ -23,7 +23,7 @@ body {
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
     border-radius: 20px;
     left: 0%;
-    top: 70%;
+    top: 60%;
     transform: rotate(-30deg) scale(1.5);
 }
 
@@ -33,17 +33,22 @@ body {
     height: 7px;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
     border-radius: 20px;
-    top: 60%;
+    top: 50%;
     left: 85%;
     transform: rotate(-30deg) scale(2.5);
 }
 
-.logo {
-    position: fixed;
-    width: 50px;
+.llogo {
+    position: absolute;
+    width: 0px;
+    height: 10px;
+    top: 5%;
+    left: 0%;
+}
+
+.llogo-img {
+    width: 150px;
     height: auto;
-    top: 40px;
-    left: 100px;
 }
 
 .center {
@@ -54,8 +59,8 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 40%;
-    top: 25%;
+    left: 35%;
+    top: 22%;
 }
 
 .center h1 {

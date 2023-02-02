@@ -1,16 +1,16 @@
 import React from "react";
-import { Link,useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { HiPencilAlt } from 'react-icons/hi';
 import "./user-profile-styles.css";
 import pfi from '../../images/prof-img.PNG';
 import Navbar from "../../components/MithunComponents/Navbar/Navbar";
 
 function UserProfile(){
-
-    function HandleLogout(event){
-        event.preventDefult();
-        return(useNavigate("/LoginPage"));
+    const navigate = useNavigate();
+    const btn = ()=>{
+        navigate("/");
     }
+    
 
     return(
     <>
@@ -66,7 +66,7 @@ function UserProfile(){
             <li>Event 2</li>
             </div>
         </div>
-        <button className="lo-btn" onClick={HandleLogout}>LOGOUT</button>
+        <button className="lo-btn" onClick={btn}>LOGOUT</button>
     </div>
     </>
     );

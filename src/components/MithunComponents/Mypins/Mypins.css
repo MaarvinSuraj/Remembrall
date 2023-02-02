@@ -9,7 +9,7 @@
     position: fixed;
     width: 1002.04px;
     height: 200.33px;
-    left: 1019px;
+    left: 65%;
     top: 60%;
     transform: rotate(-34.1deg);
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
@@ -20,8 +20,8 @@
     position: fixed;
     width: 428.66px;
     height: 8.62px;
-    left: 906.14px;
-    top: 656.16px;
+    left: 55%;
+    top: 92%;
     background: linear-gradient(272.96deg, rgba(249, 255, 0, 0.85) 1.98%, rgba(0, 235, 238, 0.85) 98.02%);
     border-radius: 20px;
     transform: rotate(146.23deg);
